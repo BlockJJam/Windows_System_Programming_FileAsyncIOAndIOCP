@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="CreateFile/IO">
+      <UniqueIdentifier>{fad26d97-9791-463e-bab6-5b712ad928f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CreateFile/OpenDevice">
+      <UniqueIdentifier>{e40472e2-31b4-4059-9520-710369b1776b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CancelSyncIO">
+      <UniqueIdentifier>{3ba61b12-a518-4422-83b6-e20964448b42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AsyncIOBasic">
+      <UniqueIdentifier>{32a5d042-8076-47ce-871b-83c9cb098a66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DeviceOrEventSignal">
+      <UniqueIdentifier>{23cf47fc-aa43-493a-a54d-660a0d00f133}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UseAlertableIO">
+      <UniqueIdentifier>{89f373fe-ea93-4293-87d4-f9d6ca7e9be0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CreateFileOnClose.cpp">
+      <Filter>CreateFile/IO</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="빈소스.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="FileCopySync.cpp">
+      <Filter>CreateFile/IO</Filter>
+    </ClCompile>
+    <ClCompile Include="FileCopyNoBuff.cpp">
+      <Filter>CreateFile/IO</Filter>
+    </ClCompile>
+    <ClCompile Include="LockFiletest.cpp">
+      <Filter>CreateFile/IO</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsoleInput.cpp">
+      <Filter>CreateFile/OpenDevice</Filter>
+    </ClCompile>
+    <ClCompile Include="GetVolumeInfo.cpp">
+      <Filter>CreateFile/OpenDevice</Filter>
+    </ClCompile>
+    <ClCompile Include="FileChgNoti.cpp">
+      <Filter>CreateFile/OpenDevice</Filter>
+    </ClCompile>
+    <ClCompile Include="DirChgNoti.cpp">
+      <Filter>CreateFile/OpenDevice</Filter>
+    </ClCompile>
+    <ClCompile Include="RegChgNoti.cpp">
+      <Filter>CreateFile/OpenDevice</Filter>
+    </ClCompile>
+    <ClCompile Include="CtrlHandler.cpp">
+      <Filter>CancelSyncIO</Filter>
+    </ClCompile>
+    <ClCompile Include="FileCopyThread.cpp">
+      <Filter>CancelSyncIO</Filter>
+    </ClCompile>
+    <ClCompile Include="CopyFileEx.cpp">
+      <Filter>CancelSyncIO</Filter>
+    </ClCompile>
+    <ClCompile Include="CopyFileExThr.cpp">
+      <Filter>CancelSyncIO</Filter>
+    </ClCompile>
+    <ClCompile Include="SyncCancelIO.cpp">
+      <Filter>CancelSyncIO</Filter>
+    </ClCompile>
+    <ClCompile Include="GetIPChanged.cpp">
+      <Filter>AsyncIOBasic</Filter>
+    </ClCompile>
+    <ClCompile Include="FileCopySig.cpp">
+      <Filter>DeviceOrEventSignal</Filter>
+    </ClCompile>
+    <ClCompile Include="DirChgNotiAsync.cpp">
+      <Filter>DeviceOrEventSignal</Filter>
+    </ClCompile>
+    <ClCompile Include="FileCopyAPC.cpp">
+      <Filter>UseAlertableIO</Filter>
+    </ClCompile>
+    <ClCompile Include="FileCopyAPC2.cpp">
+      <Filter>UseAlertableIO</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
