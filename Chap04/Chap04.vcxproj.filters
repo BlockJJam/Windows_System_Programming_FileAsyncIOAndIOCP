@@ -31,6 +31,9 @@
     <Filter Include="UseAlertableIO">
       <UniqueIdentifier>{89f373fe-ea93-4293-87d4-f9d6ca7e9be0}</UniqueIdentifier>
     </Filter>
+    <Filter Include="IOCP">
+      <UniqueIdentifier>{985c35e7-4063-4297-b247-cfdd61953659}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CreateFileOnClose.cpp">
@@ -95,6 +98,36 @@
     </ClCompile>
     <ClCompile Include="FileCopyAPC2.cpp">
       <Filter>UseAlertableIO</Filter>
+    </ClCompile>
+    <ClCompile Include="DirChgNotiAPC.cpp">
+      <Filter>UseAlertableIO</Filter>
+    </ClCompile>
+    <ClCompile Include="APCTimer.cpp">
+      <Filter>UseAlertableIO</Filter>
+    </ClCompile>
+    <ClCompile Include="ExitWithAPC.cpp">
+      <Filter>UseAlertableIO</Filter>
+    </ClCompile>
+    <ClCompile Include="DirChgNotiAPC2.cpp">
+      <Filter>UseAlertableIO</Filter>
+    </ClCompile>
+    <ClCompile Include="ApcWaitMulti.cpp">
+      <Filter>UseAlertableIO</Filter>
+    </ClCompile>
+    <ClCompile Include="FileCopyIOCP.cpp">
+      <Filter>IOCP</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiCopyIOCP.cpp">
+      <Filter>IOCP</Filter>
+    </ClCompile>
+    <ClCompile Include="DirChgNotiIOCP.cpp">
+      <Filter>IOCP</Filter>
+    </ClCompile>
+    <ClCompile Include="IOCPNotify.cpp">
+      <Filter>IOCP</Filter>
+    </ClCompile>
+    <ClCompile Include="IOCPThreadPool.cpp">
+      <Filter>IOCP</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
