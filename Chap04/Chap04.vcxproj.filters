@@ -129,6 +129,21 @@
     <ClCompile Include="IOCPThreadPool.cpp">
       <Filter>IOCP</Filter>
     </ClCompile>
+    <ClCompile Include="TestGQCSEx.cpp">
+      <Filter>IOCP</Filter>
+    </ClCompile>
+    <ClCompile Include="CancelUseClose.cpp">
+      <Filter>IOCP</Filter>
+    </ClCompile>
+    <ClCompile Include="AsyncCancelIo.cpp">
+      <Filter>IOCP</Filter>
+    </ClCompile>
+    <ClCompile Include="AsyncCancelIoEx.cpp">
+      <Filter>IOCP</Filter>
+    </ClCompile>
+    <ClCompile Include="DirChgCancelIOCP.cpp">
+      <Filter>IOCP</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="targetver.h">
